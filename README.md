@@ -14,7 +14,7 @@ https://www.linkedin.com/in/chaseolsen/
 
 Qwerky web application build with the ReactJS (With Redux), MongoDB, NodeJS, Express.
 
-Here is basic file structure of project
+Here is basic file structure of project (Left out a few Laravel generated content below)
 
     ├── app                     # Contains Http->Controllers/Middleware and Providers
     ├── config                  # Auth for DB (I just used XAMPP for a local DB, so you'd have to change this)
