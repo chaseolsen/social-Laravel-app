@@ -25,4 +25,4 @@ Here is basic file structure of project (Left out a few Laravel generated conten
     └── README.md
 
 ## Extra Details About Development And Future Plans
-This app was primarily built to learn Laravel and to have a codebase to refer to in the future.
+This app was primarily built to refresh Laravel and to have a codebase to refer to in the future.
