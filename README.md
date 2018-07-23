@@ -14,7 +14,7 @@ https://www.linkedin.com/in/chaseolsen/
 
 Here is basic file structure of project (Left out a few Laravel generated content below)
 
-    ├── app                     # Contains Http->Controllers/Middleware and Providers
+    ├── app                     # Contains Http -> Controllers/Middleware and Providers
     ├── config                  # Auth for DB (I just used XAMPP for a local DB, so you'd have to change this)
     ├── database                # More generated files and Migrations, containing table Schemas for Migration
     ├── public                  # Pretty self explanitory
