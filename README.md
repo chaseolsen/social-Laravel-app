@@ -1,5 +1,5 @@
 # social-laravel-app
-Here is a pretty straight forward social/blog app built with Laravel, I also used Composer and Artisan for Schemas, Migration, etc.
+Here is a pretty straight forward social/blog app built with Laravel, I also used Composer and Artisan for Schemas, Migration, etc. Nothing spectacular, but a nice environment to build on.
 
 https://www.linkedin.com/in/chaseolsen/
 
@@ -30,6 +30,7 @@ In .env file, add database information to allow Laravel to connect:
 * DB_DATABASE
 * DB_USERNAME
 * DB_PASSWORD
+
 Create empty database
 Migrate the database
 ```
