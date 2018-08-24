@@ -3,6 +3,39 @@ Here is a pretty straight forward social/blog app built with Laravel, I also use
 
 https://www.linkedin.com/in/chaseolsen/
 
+## Installation Guide
+Clone it:
+```
+git clone https://github.com/chaseolsen/social-laravel-app.git
+```
+Install Composer Dependencies:
+```
+composer install
+```
+Install NPM Dependencies:
+```
+npm install
+```
+Create copy of env:
+```
+cp .env.example .env
+```
+Generate app encryption key: php artisan key:generate
+```
+php artisan key:generate
+```
+In .env file, add database information to allow Laravel to connect: 
+* DB_HOST
+* DB_PORT
+* DB_DATABASE
+* DB_USERNAME
+* DB_PASSWORD
+Create empty database
+Migrate the database
+```
+php artisan migrate
+```
+
 ## Technologies Used
 
 * Laravel
