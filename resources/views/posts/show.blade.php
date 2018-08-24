@@ -1,9 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-  <a href="http://localhost/lsapp/public/posts" class="btn btn-default">Go Back</a>
+  <a href="http://localhost/social-laravel-app/public/posts" class="btn btn-default">Go Back</a>
   <h1>{{$post->title}}</h1>
-  <img style="width:100%" src="http://localhost/lsapp/storage/app/public/cover_images/{{$post->cover_image}}">
+  <img style="width:100%" src="http://localhost/social-laravel-app/storage/app/public/cover_images/{{$post->cover_image}}">
   <br>
   <br>
   <div>
@@ -17,7 +17,7 @@
   @if(!Auth::guest())
     {{-- if logged in user is same user as user that posted the post, then display edit/delete --}}
     @if(Auth::user()->id == $post->user_id)
-    <a href="http://localhost/lsapp/public/posts/{{$post->id}}/edit" class="btn btn-default">Edit</a>
+    <a href="http://localhost/social-laravel-app/public/posts/{{$post->id}}/edit" class="btn btn-default">Edit</a>
 
     {!!Form::open(['action' => ['PostsController@destroy', $post->id], 'method' => 'POST', 'class' => 'pull-right'])!!}
       {{Form::hidden('_method', 'DELETE')}}

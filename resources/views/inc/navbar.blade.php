@@ -23,10 +23,10 @@
             </ul>
 
             <ul class="nav navbar-nav">
-              <li class="active"><a href="http://localhost/lsapp/public">Home</a></li>
-              <li><a href="http://localhost/lsapp/public/about">About</a></li>
-              <li><a href="http://localhost/lsapp/public/services">Services</a></li>
-              <li><a href="http://localhost/lsapp/public/posts">Blog</a></li>
+              <li class="active"><a href="http://localhost/social-laravel-app/public">Home</a></li>
+              <li><a href="http://localhost/social-laravel-app/public/about">About</a></li>
+              <li><a href="http://localhost/social-laravel-app/public/services">Services</a></li>
+              <li><a href="http://localhost/social-laravel-app/public/posts">Blog</a></li>
             </ul>
 
             <!-- Right Side Of Navbar -->
@@ -43,7 +43,7 @@
 
                         <ul class="dropdown-menu" role="menu">
                             <li>
-                              <a href="http://localhost/lsapp/public/dashboard">Dashboard</a>
+                              <a href="http://localhost/social-laravel-app/public/dashboard">Dashboard</a>
                             </li>
 
                             <li>

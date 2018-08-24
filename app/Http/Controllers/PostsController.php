@@ -92,7 +92,7 @@ class PostsController extends Controller
         $post->cover_image = $fileNameToStore;
         $post->save();
 
-        return redirect('http://localhost/lsapp/public/posts')->with('success', 'Post Created');
+        return redirect('http://localhost/social-laravel-app/public/posts')->with('success', 'Post Created');
     }
 
     /**
@@ -118,7 +118,7 @@ class PostsController extends Controller
         $post = Post::find($id);
         // Check for correct user
         if(auth()->user()->id !== $post->user_id){
-          return redirect('http://localhost/lsapp/public/posts')->with('error', 'Unauthorized Page');
+          return redirect('http://localhost/social-laravel-app/public/posts')->with('error', 'Unauthorized Page');
         }
         return view('posts.edit')->with('post', $post);
     }
@@ -160,7 +160,7 @@ class PostsController extends Controller
       }
       $post->save();
 
-      return redirect('http://localhost/lsapp/public/posts')->with('success', 'Post Updated');
+      return redirect('http://localhost/social-laravel-app/public/posts')->with('success', 'Post Updated');
     }
 
     /**
@@ -175,7 +175,7 @@ class PostsController extends Controller
 
         // Check for correct user
         if(auth()->user()->id !== $post->user_id){
-          return redirect('http://localhost/lsapp/public/posts')->with('error', 'Unauthorized Page');
+          return redirect('http://localhost/social-laravel-app/public/posts')->with('error', 'Unauthorized Page');
         }
 
         if($post->cover_image != 'noimage.jpg'){
@@ -185,6 +185,6 @@ class PostsController extends Controller
 
         $post->delete();
 
-        return redirect('http://localhost/lsapp/public/posts')->with('success', 'Post Removed');
+        return redirect('http://localhost/social-laravel-app/public/posts')->with('success', 'Post Removed');
     }
 }
