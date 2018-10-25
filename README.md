@@ -3,7 +3,7 @@ Here is a pretty straight forward social/blog app built with Laravel, I also use
 
 https://www.linkedin.com/in/chaseolsen/
 
-## Installation Guide
+## Installation Guide (Never looked into a more streamlined process, Laravel isn't my go to framework)
 Clone it:
 ```
 git clone https://github.com/chaseolsen/social-laravel-app.git
